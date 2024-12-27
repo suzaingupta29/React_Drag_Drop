@@ -1,0 +1,72 @@
+*{
+  background-color:
+  #cdeaea;
+}
+.app{
+
+  text-align: center;
+}
+input{
+  width: 250px;
+  height: 35px;
+  font-size: 20px;
+  padding: 5px;
+}
+.containner{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-heading{
+  background-color:
+  #C9CCD5;
+  padding: 10px 0px;
+}
+.doing-heading{
+  background-color: #7A99A9;
+  padding: 10px 0px;
+}
+.done-heading{
+  background-color:#60C689;
+  padding: 10px 0px;
+}
+
+.todo{
+  width: 33%;
+  height: 400px;
+}
+.doing{
+  width: 33%;
+  height: 400px;
+  margin: 0 10px;
+}
+.done{
+  width: 33%;
+  height: 400px;
+}
+.task-item{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border: 0.7px solid lightgray;
+  border-radius: 5px;
+  padding: 10px;cursor: grab;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.task-item:hover{
+  background-color: lightgray;
+}
+.btn{
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+.btn:hover{
+  background-color: purple;
+  cursor: pointer;
+  border-radius: 50%;
+}
